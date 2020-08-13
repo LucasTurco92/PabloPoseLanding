@@ -1,0 +1,50 @@
+.navbarContainer {
+    background-color: white;
+    opacity: 0.5;
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+    font-size: 1em;
+    h1 {
+        font-size: 1.2em;
+        color: #111f4d;
+    }
+}
+
+.name {
+    padding-left: 5vw;
+}
+
+.profesion {
+    padding-right: 5vw;
+}
+
+@media (max-width: 720px) {
+    .navbarContainer {
+        background-color: white;
+        opacity: 0.7;
+        position: fixed;
+        width: 100%;
+        z-index: 50;
+        align-items: center;
+        height: 50px;
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+        font-size: 1em;
+        h1 {
+            font-size: 1em;
+        }
+        .profesion {
+            display: none;
+        }
+        .name {
+            padding-left: 0vw;
+        }
+    }
+}
