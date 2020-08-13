@@ -1,0 +1,109 @@
+.introContent {
+    position: absolute;
+    z-index: 10;
+    color: white;
+    left: 1px;
+    top: 50vh;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes moveLeft {
+    from {
+        left: -1vw;
+        opacity: 0;
+    }
+    to {
+        left: 3hw;
+        opacity: 1;
+    }
+}
+
+@keyframes moveUp {
+    from {
+        top: 5vh;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+.firstSection {
+    position: relative;
+    left: 4vw;
+    top: 5vh;
+    display: block;
+    animation: moveLeft 3s ease-in-out both;
+}
+
+.secondSection {
+    position: relative;
+    left: 10vw;
+    top: 2vh;
+    display: block;
+    animation: show 3s ease-in-out both;
+}
+
+.thirdSection {
+    position: relative;
+    left: 10vw;
+    top: 4vh;
+    display: block;
+    animation: moveUp 3s ease-in-out both;
+}
+
+.firstPartFrase {
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 5em;
+}
+
+.secondPartFrase {
+    font-family: 'Playfair Display', serif;
+    font-size: 4em;
+}
+
+.thirdPartFrase {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3em;
+}
+
+.fourthPartFrase {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+}
+
+.fifthPartFrase {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 2em;
+}
+
+@media (max-width: 720px) {
+    .introContent {
+        left: 1px;
+        top: 50vh;
+    }
+    .firstPartFrase {
+        font-size: 3em;
+    }
+    .secondPartFrase {
+        font-size: 2em;
+    }
+    .thirdPartFrase {
+        font-size: 1.7em;
+    }
+    .fourthPartFrase {
+        font-size: 1em;
+    }
+    .fifthPartFrase {
+        font-size: 1.2em;
+    }
+}

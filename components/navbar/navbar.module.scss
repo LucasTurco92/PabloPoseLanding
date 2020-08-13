@@ -26,13 +26,12 @@
 
 @media (max-width: 720px) {
     .navbarContainer {
-        background-color: white;
-        opacity: 0.7;
+        opacity: 1;
         position: fixed;
         width: 100%;
         z-index: 50;
         align-items: center;
-        height: 50px;
+        height: 40px;
         justify-content: center;
         display: flex;
         margin: 0 auto;
