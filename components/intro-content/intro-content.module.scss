@@ -28,11 +28,11 @@
 
 @keyframes moveUp {
     from {
-        top: 5vh;
+        top: 6vh;
         opacity: 0;
     }
     to {
-        top: 0;
+        top: 2vh;
         opacity: 1;
     }
 }
@@ -56,8 +56,6 @@
 .thirdSection {
     position: relative;
     left: 10vw;
-    top: 4vh;
-    display: block;
     animation: moveUp 3s ease-in-out both;
 }
 

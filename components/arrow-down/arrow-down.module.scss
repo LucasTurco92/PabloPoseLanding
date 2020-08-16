@@ -1,0 +1,16 @@
+.arrow {
+    position: fixed;
+    width: 4em;
+    line-height: 20vh;
+    z-index: 30;
+    display: inline-block;
+    right: 45vw;
+    top: 85vh;
+    opacity: 0.7;
+}
+
+@media (max-width: 720px) {
+    .arrow {
+        width: 2.5em;
+    }
+}
