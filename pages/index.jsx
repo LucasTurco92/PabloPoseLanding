@@ -16,10 +16,10 @@ export default props => (
         <Navbar />
         <Section section="intro">
             <Intro />
-        </Section>
-        <Section section="secondSection">
+</Section>
+      <Section section="secondSection">
             <SecondSection />
-        </Section>
+        </Section> 
         <Footer />
     </div>
 ); 

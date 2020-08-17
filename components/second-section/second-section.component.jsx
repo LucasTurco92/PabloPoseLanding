@@ -6,11 +6,12 @@ import style from './second-section.module.scss';
 const SecondSection = (props) =>{
     const {section} = props;
     return (
-    <div >
+    <div className={style.second}>
         <div >
-            <picture>
-                <IntroImg srcImg='/second/second.jpeg' altImg='Pablo Pose intense' />
-            </picture>
+              
+           <p>
+                
+           </p>
                 <ArrowDown  id='secondSection' nextSection='intro' />
         </div>
     </div>

@@ -6,6 +6,9 @@
     left: 0;
     object-fit: cover;
     height: 100vh;
+    .hola {
+        object-fit: fill !important;
+    }
 }
 
 @media (max-width: 720px) {
@@ -16,18 +19,17 @@
         z-index: 1;
         left: 0;
         object-fit: cover;
-        height: 100vh;
     }
 }
 
 @media (min-width: 1000px) {
     .imgContainer {
-        height: 150vh;
+        object-position: 50% 20%;
     }
 }
 
 @media (min-width: 1800px) {
     .imgContainer {
-        height: 250vh;
+        object-position: 50% 20%;
     }
 }
