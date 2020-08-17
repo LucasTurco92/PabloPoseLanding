@@ -5,7 +5,6 @@ import Link from 'next/link'
 const ArrowDown = (props) =>{ 
 const {nextSection, id} = props;
 
-console.log(nextSection);
 return(
 <div id={id} >
     <Link href={`#${nextSection}`}>
