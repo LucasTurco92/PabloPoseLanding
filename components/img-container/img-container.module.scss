@@ -1,4 +1,4 @@
-.introImg {
+.imgContainer {
     width: 100%;
     display: flex;
     position: relative;
@@ -6,11 +6,13 @@
     left: 0;
     object-fit: cover;
     height: 100vh;
+    .hola {
+        object-fit: fill !important;
+    }
 }
 
 @media (max-width: 720px) {
-    .introImg {
-        height: 100vh;
+    .imgContainer {
         display: flex;
         bottom: 0;
         width: 100%;
@@ -21,15 +23,13 @@
 }
 
 @media (min-width: 1000px) {
-    .introImg {
-        bottom: 0;
-        height: 150vh;
+    .imgContainer {
+        object-position: 50% 20%;
     }
 }
 
 @media (min-width: 1800px) {
-    .introImg {
-        bottom: 0;
-        height: 250vh;
+    .imgContainer {
+        object-position: 50% 20%;
     }
 }

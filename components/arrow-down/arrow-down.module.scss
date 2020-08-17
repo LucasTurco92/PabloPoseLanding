@@ -1,12 +1,12 @@
 .arrow {
-    position: fixed;
+    position: absolute;
     width: 4em;
-    line-height: 20vh;
     z-index: 30;
     display: inline-block;
-    right: 45vw;
-    top: 85vh;
+    right: 45%;
     opacity: 0.7;
+    top: 89%;
+    cursor: pointer;
 }
 
 @media (max-width: 720px) {
