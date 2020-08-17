@@ -1,4 +1,4 @@
-.introImg {
+.imgContainer {
     width: 100%;
     display: flex;
     position: relative;
@@ -9,27 +9,25 @@
 }
 
 @media (max-width: 720px) {
-    .introImg {
-        height: 100vh;
+    .imgContainer {
         display: flex;
         bottom: 0;
         width: 100%;
         z-index: 1;
         left: 0;
         object-fit: cover;
+        height: 100vh;
     }
 }
 
 @media (min-width: 1000px) {
-    .introImg {
-        bottom: 0;
+    .imgContainer {
         height: 150vh;
     }
 }
 
 @media (min-width: 1800px) {
-    .introImg {
-        bottom: 0;
+    .imgContainer {
         height: 250vh;
     }
 }

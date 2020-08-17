@@ -1,19 +1,17 @@
 import React from 'react';
-import IntroImg from '../intro-image/intro-image.component'
-import styles from './intro.module.scss';
 import IntroContent from '../intro-content/intro-content.component';
 import ArrowDown from '../arrow-down/arrow-down.component';
+import ImgContainer from '../img-container/img-container.component';
+import style from './intro.module.scss';
 
 const Intro = () => (
-    <div className={styles.intro}>
-        <div className={styles.intro}>
-        <IntroContent/>    
-    
-                <picture>
-        <ArrowDown/>  
-                    <IntroImg/>
-                </picture>  
- 
+    <div >
+        <div >
+            <IntroContent />
+            <picture>
+                <ArrowDown  id='intro' nextSection='secondSection' />
+                <ImgContainer srcImg='/intro/portada.jpeg' altImg='Pablo Pose' />
+            </picture>
         </div>
     </div>
 )
