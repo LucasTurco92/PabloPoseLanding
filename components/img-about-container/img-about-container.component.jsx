@@ -6,7 +6,6 @@ const ImgAboutContainer = (props) =>
     (
         <div className={styles.imgAboutContainer} >
             <ImgAbout srcImg='/second/about.jpeg' altImg='about' />
-            <h1>Pablo Pose</h1>
         </div>
     )
 

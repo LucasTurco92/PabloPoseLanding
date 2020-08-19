@@ -3,15 +3,9 @@
     height: 100%;
     background: #b2bac9;
     position: absolute;
-    h1 {
-        display: flex;
-        justify-content: center;
-        color: #ffcc85;
-    }
     img {
         display: flex;
-        height: 30%;
-        margin: 60% auto auto auto;
+        margin: 80% auto auto auto;
     }
 }
 
@@ -26,8 +20,5 @@
             margin: 10% auto;
         }
         margin: 0;
-        h1 {
-            display: none;
-        }
     }
 }
