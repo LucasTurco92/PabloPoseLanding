@@ -4,6 +4,7 @@
     color: white;
     left: 1px;
     top: 50vh;
+    height: 50vh;
 }
 
 @keyframes show {
@@ -32,31 +33,53 @@
         opacity: 0;
     }
     to {
-        top: 2vh;
+        top: 0vh;
         opacity: 1;
     }
 }
 
-.firstSection {
+.firstSectionOn {
     position: relative;
     left: 4vw;
     top: 5vh;
     display: block;
-    animation: moveLeft 3s ease-in-out both;
+    animation: moveLeft 3s ease-in-out both 1;
 }
 
-.secondSection {
+.secondSectionOn {
     position: relative;
     left: 10vw;
     top: 2vh;
     display: block;
-    animation: show 3s ease-in-out both;
+    animation: show 3s ease-in-out both 1;
 }
 
-.thirdSection {
+.thirdSectionOn {
     position: relative;
     left: 10vw;
-    animation: moveUp 3s ease-in-out both;
+    display: block;
+    margin-top: 2vh;
+    animation: moveUp 3s ease-in-out both 1;
+}
+
+.firstSectionOff {
+    position: relative;
+    left: 4vw;
+    top: 5vh;
+    display: block;
+}
+
+.secondSectionOff {
+    position: relative;
+    left: 10vw;
+    top: 2vh;
+    display: block;
+}
+
+.thirdSectionOff {
+    position: relative;
+    margin-top: 2vh;
+    left: 10vw;
 }
 
 .firstPartFrase {
