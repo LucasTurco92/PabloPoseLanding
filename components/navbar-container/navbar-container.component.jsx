@@ -11,7 +11,7 @@ const styles = {
 }
     useScrollPosition(
         ({ prevPos, currPos }) => {
-            const isShow = currPos.y > prevPos.y
+            const isShow = currPos.y > prevPos.y && currPos != 0;
             if (isShow !== hideOnScroll) setHideOnScroll(isShow)
         },
         [hideOnScroll],
