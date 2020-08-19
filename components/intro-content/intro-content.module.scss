@@ -5,6 +5,7 @@
     left: 1px;
     top: 50vh;
     height: 50vh;
+    color: #04b3d5;
 }
 
 @keyframes show {
@@ -110,7 +111,7 @@
 @media (max-width: 720px) {
     .introContent {
         left: 1px;
-        top: 50vh;
+        top: 35vh;
     }
     .firstPartFrase {
         font-size: 3em;

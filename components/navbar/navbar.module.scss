@@ -1,5 +1,5 @@
 .navbarContainer {
-    background-color: white;
+    background-color: #eaeaec;
     opacity: 0.5;
     width: 100%;
     z-index: 50;
@@ -8,10 +8,12 @@
     height: 50px;
     display: flex;
     margin: 0 auto;
-    font-size: 1em;
+    font-size: 1.2em;
     h1 {
         font-size: 1.2em;
-        color: #111f4d;
+        color: #6c6d71;
+        font-family: 'Playfair Display', serif;
+        font-family: 'Poiret One', cursive;
     }
     box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.65);
 }

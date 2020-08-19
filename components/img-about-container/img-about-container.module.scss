@@ -1,0 +1,24 @@
+.imgAboutContainer {
+    width: 25%;
+    height: 100%;
+    background: #b2bac9;
+    position: absolute;
+    img {
+        display: flex;
+        margin: 80% auto auto auto;
+    }
+}
+
+@media (max-width: 720px) {
+    .imgAboutContainer {
+        top: 2%;
+        left: 5%;
+        width: 90%;
+        height: 96%;
+        img {
+            height: 20%;
+            margin: 10% auto;
+        }
+        margin: 0;
+    }
+}
