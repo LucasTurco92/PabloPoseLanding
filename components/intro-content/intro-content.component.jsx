@@ -17,7 +17,7 @@ const IntroContent = () => {
         false: styles.thirdSectionOff
     }
     useScrollPosition(
-        ({currPos }) => {
+        ({currPos}) => {
             const isShow = currPos.y == 0;
             if (isShow !== hideOnScroll) setHideOnScroll(isShow)
         },
