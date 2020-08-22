@@ -8,7 +8,6 @@ const Intro = () => (
         <div >
             <IntroContent />
             <picture>
-                <ArrowDown  id='intro' nextSection='secondSection' />
                 <ImgContainer srcImg='/intro/portada.jpeg' altImg='Pablo Pose' />
             </picture>
         </div>

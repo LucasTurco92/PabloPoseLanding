@@ -9,5 +9,4 @@ const {section} = props;
         </div>
     )}
 
-
 export default Section;

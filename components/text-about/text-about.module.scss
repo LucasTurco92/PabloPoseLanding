@@ -3,12 +3,33 @@
     height: 100%;
     position: absolute;
     left: 35%;
-    font-size: 200%;
+    font-size: calc(200% - 1vh);
+    line-height: 100%;
     color: #272833;
 }
 
 .text {
     margin-top: 10%;
+    position: absolute;
+    z-index: 26;
+    max-height: 100%;
+}
+
+.mask {
+    margin-right: 5px;
+    display: inline-block;
+    width: 1.5em;
+    line-height: 2em;
+    font-size: 1.5em;
+    filter: invert(10%) sepia(27%) saturate(594%) hue-rotate(196deg) brightness(95%) contrast(85%);
+}
+
+.maskBackground {
+    position: absolute;
+    max-height: 100%;
+    margin: auto;
+    z-index: 67;
+    filter: invert(1);
 }
 
 @media (max-width: 720px) {
@@ -26,5 +47,14 @@
     }
     .line {
         display: none;
+    }
+    .text {
+        background: #272833;
+    }
+    .maskBackground {
+        display: none;
+    }
+    .mask {
+        filter: invert(1);
     }
 }

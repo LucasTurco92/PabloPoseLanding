@@ -6,6 +6,7 @@ import TitleIcon from '../components/title-icon/title-icon';
 import Section from '../components/section/section.component';
 import SecondSection from '../components/second-section/second-section.component';
 import NavbarContainer from '../components/navbar-container/navbar-container.component';
+import ThirdSection from '../components/third-section/third-section';
 
 export default props => (
     <div >
@@ -16,10 +17,14 @@ export default props => (
         <NavbarContainer />
         <Section section="intro">
             <Intro />
-</Section>
-      <Section section="secondSection">
+        </Section>
+        <Section section="secondSection">
             <SecondSection />
-        </Section> 
+        </Section>
+        <Section section="thirdSection">
+            <ThirdSection />
+        </Section>
+  
         <Footer />
     </div>
 ); 
