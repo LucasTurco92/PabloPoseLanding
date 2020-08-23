@@ -1,4 +1,13 @@
-.imgAbout {
-    height: 20%;
-    border-radius: 100%;
-}
+    .imgAbout {
+        height: 200px;
+        border-radius: 100%;
+        display: flex;
+        object-fit: cover;
+    }
+    
+    @media (max-width: 720px) {
+        .imgAbout {
+            height: 80%;
+            margin: 10% auto;
+        }
+    }

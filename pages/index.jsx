@@ -21,10 +21,10 @@ export default props => (
         <Section section="secondSection">
             <SecondSection />
         </Section>
-        <Section section="thirdSection">
+        {/*<Section section="thirdSection">
             <ThirdSection />
-        </Section>
-  
+</Section>*/}
+
         <Footer />
     </div>
 ); 

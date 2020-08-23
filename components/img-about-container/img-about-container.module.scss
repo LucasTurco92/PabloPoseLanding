@@ -2,12 +2,11 @@
     width: 25%;
     height: 100%;
     background: #272833;
-    position: absolute;
-    img {
-        display: flex;
-        margin: 80% auto auto auto;
-    }
+    margin: 0;
     border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 720px) {
@@ -15,13 +14,11 @@
         top: 2%;
         left: 5%;
         width: 90%;
-        height: 96%;
-        background: #272833;
-        img {
-            height: 20%;
-            margin: 10% auto;
-        }
+        height: 200px;
+        background: transparent;
         margin: 0;
+        display: block;
         border-radius: 20px;
+        position: relative;
     }
 }
