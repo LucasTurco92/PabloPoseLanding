@@ -4,10 +4,14 @@
     height: 100%;
     width: 100%;
     font-family: 'Playfair Display', serif;
+    max-width: 1920px;
 }
 
 .secondContainer {
     height: 100vh;
+    justify-content: center;
+    display: flex;
+    background: #272833;
 }
 
 @media (max-width: 720px) {
