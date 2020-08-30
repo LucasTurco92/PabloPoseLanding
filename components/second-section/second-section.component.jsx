@@ -7,7 +7,8 @@ const SecondSection = () => {
     return (
         <div className={style.secondContainer}>
             <div className={style.second}>
-                <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"></link>
+            <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"/>
+
                 <ImgAboutContainer /><TextAbout />
             </div>
 

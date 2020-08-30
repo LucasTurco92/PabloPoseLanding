@@ -1,9 +1,18 @@
 .textAbout {
     width: 75%;
     height: auto;
-    color: #272833;
-    background: #b2bac9;
+    color: #b2bac9;
+    background: #eaeaec;
     margin: 0;
+}
+
+.header {
+    h1 {
+        color: #6c6d71;
+    }
+    h3 {
+        color: #04b3d5
+    }
 }
 
 .text {
@@ -25,16 +34,6 @@
     line-height: 100%;
 }
 
-.mask {
-    margin-right: 5px;
-    margin-top: 10px;
-    display: inline-block;
-    width: 1.5em;
-    line-height: 2em;
-    font-size: 1.5em;
-    display: none;
-}
-
 .maskBackground {
     max-height: 100%;
     margin: auto;
@@ -42,6 +41,9 @@
 }
 
 @media (max-width: 720px) {
+    .header {
+        display: none;
+    }
     .textAbout {
         width: 100%;
         font-size: 70%;
