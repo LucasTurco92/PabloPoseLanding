@@ -1,0 +1,40 @@
+.videoContainer {
+    width: 100%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    video {
+        width: 90%;
+    }
+}
+
+.text {
+    color: #eaeaec;
+    width: 40%;
+    height: 50%;
+    padding: 5px;
+    margin: auto;
+    h1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 720px) {
+    .videoContainer {
+        width: 100%;
+        video {
+            width: 90%;
+        }
+    }
+    .text {
+        color: #272833;
+        width: 90%;
+        height: 50%;
+        padding: 5px;
+        margin: auto;
+        h1 {
+            text-align: center;
+        }
+    }
+}

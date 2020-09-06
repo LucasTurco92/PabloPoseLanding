@@ -35,6 +35,11 @@
     }
     
     @media (max-width: 720px) {
+        .container {
+            background: #eaeaec;
+            border-top-right-radius: 20px;
+            width: 115px;
+        }
         .icons {
             ul {
                 height: auto;
