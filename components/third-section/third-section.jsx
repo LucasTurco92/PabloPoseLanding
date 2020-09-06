@@ -9,7 +9,7 @@ const ThirdSection = (props) => {
                 <dir className={style.videoSection}>
                 <VideoContainer url='/caso.mp4'  title='test' paragraph='Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis similique id error, soluta dolorem ad! Placeat totam magni officiis ducimus minus iste, eveniet, voluptatem tempore praesentium illum culpa corporis quam!'/>
                 <VideoContainer url='/esperanza.mp4' title='test' paragraph='Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis similique id error, soluta dolorem ad! Placeat totam magni officiis ducimus minus iste, eveniet, voluptatem tempore praesentium illum culpa corporis quam!'/>
-                <VideoContainer url='/secuencia479.mp4' title='test' paragraph='Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis similique id error, soluta dolorem ad! Placeat totam magni officiis ducimus minus iste, eveniet, voluptatem tempore praesentium illum culpa corporis quam!'/>
+                <VideoContainer url='/secuencia.mp4' title='test' paragraph='Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis similique id error, soluta dolorem ad! Placeat totam magni officiis ducimus minus iste, eveniet, voluptatem tempore praesentium illum culpa corporis quam!'/>
                 </dir>
             </div>
         </div>
