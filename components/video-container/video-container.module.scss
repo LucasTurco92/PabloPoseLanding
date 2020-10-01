@@ -1,13 +1,16 @@
 .videoContainer {
-    width: 100%;
+    width: 50%;
     background: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2), inset -5px -5px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.3), 5px 5px 15px rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
     video {
-        width: 90%;
+        width: 95%;
         box-shadow: 0 0 20px #000000;
         border-radius: 20px;
+        margin: 2% 0 2% 0;
     }
 }
 
@@ -25,6 +28,7 @@
 @media (max-width: 720px) {
     .videoContainer {
         width: 100%;
+        box-shadow: none;
         video {
             width: 100%;
             border-top-left-radius: 16px;
@@ -32,6 +36,7 @@
             box-shadow: 0 5px 5px #272833;
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
+            margin: 0;
         }
     }
     .text {

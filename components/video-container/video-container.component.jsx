@@ -7,11 +7,17 @@ const VideoContainer = (props) => {
     return (
         <div className={styles.container}>
             <div className={styles.borderContainer}>
+
                 <div className={styles.videoContainer}>
-                <video width={videoWidth} src={url} playsinline="true" autostart="true" autoPlay="true" loop="true" muted="true" type="video/mp4">
-                        Tu navegador no implementa el elemento <code>video</code>
-                    </video>
+                
+                        <video width={videoWidth} src={url} playsinline="true" autostart="true" autoPlay="true" loop="true" muted="true" type="video/mp4">
+                            Tu navegador no implementa el elemento <code>video</code>
+                        </video>
+
+                    
                 </div>
+
+
                 <div className={styles.text}>
                     <h1> {title}</h1>
                     <p>
