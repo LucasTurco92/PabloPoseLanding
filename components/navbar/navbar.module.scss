@@ -1,5 +1,6 @@
 .navbarContainer {
     background-color: #eaeaec;
+    justify-content: space-between;
     opacity: 0.5;
     width: 100%;
     z-index: 50;
@@ -16,12 +17,12 @@
     box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.65);
 }
 
-.name {
-    padding-left: 5vw;
+.socialContainer {
+    margin-right: 50px;
 }
 
-.profesion {
-    padding-right: 5vw;
+.name {
+    padding-left: 5vw;
 }
 
 @media (max-width: 720px) {
@@ -37,9 +38,6 @@
         display: none;
         h1 {
             font-size: 1em;
-        }
-        .profesion {
-            display: none;
         }
         box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.65);
     }
