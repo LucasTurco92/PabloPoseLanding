@@ -45,6 +45,7 @@
     @extend .textMobile;
     grid-column: 2;
     display: block;
+    margin: 0 0 auto;
 }
 
 @media (max-width: 720px) {

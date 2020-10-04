@@ -2,75 +2,11 @@
     display: none;
 }
 
-.icons {
-    display: flex;
-    justify-content: center;
-    ul {
-        height: auto;
-        margin-top: auto;
-        padding-top: 10px;
-    }
-    li {
-        list-style-type: none;
-        display: inline-block;
-        padding-left: 10px;
-        cursor: pointer;
-    }
-}
-
-.twitter {
-    margin-right: 5px;
-    display: inline-block;
-    width: 1.5em;
-    line-height: 2em;
-}
-
-.facebook {
-    margin-right: 5px;
-    display: inline-block;
-    width: 1.5em;
-    line-height: 2em;
-}
-
-.instagram {
-    display: inline-block;
-    width: 1.4em;
-    line-height: 2em;
-}
-
-.youtube {
-    display: inline-block;
-    width: 1.8em;
-    line-height: 2em;
-}
-
 @media (max-width: 720px) {
     .container {
         background: #eaeaec;
         width: 101%;
     }
-    .icons {
-        ul {
-            height: auto;
-            margin-top: auto;
-            padding: 0;
-        }
-        li {
-            list-style-type: none;
-            display: inline-block;
-            padding-left: 10px;
-            cursor: pointer;
-        }
-    }
-    .twitter {
-        margin-right: 0;
-    }
-    .facebook {
-        margin-right: 0;
-    }
-}
-
-@media (max-width: 720px) {
     .footer {
         display: flex;
         z-index: 200;
