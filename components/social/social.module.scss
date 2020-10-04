@@ -1,16 +1,10 @@
 .footer {
-    background: rgba( 108, 109, 113, 0.3);
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    z-index: 100;
-    left: 0;
+    display: none;
 }
 
 .icons {
     display: flex;
-    text-align: center;
+    justify-content: center;
     ul {
         height: auto;
         margin-top: auto;
@@ -53,7 +47,6 @@
 @media (max-width: 720px) {
     .container {
         background: #eaeaec;
-        border-top-right-radius: 20px;
         width: 101%;
     }
     .icons {
@@ -79,6 +72,14 @@
 
 @media (max-width: 720px) {
     .footer {
-        background: rgba( 57, 69, 75, 0);
+        display: flex;
+        z-index: 200;
+        align-items: center;
+        justify-items: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 10px;
+        left: 0;
     }
 }

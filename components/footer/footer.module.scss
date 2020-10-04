@@ -1,7 +1,8 @@
 .footer {
     background: #272833;
     height: 40px;
-    z-index: 9990;
+    z-index: 3000;
+    display: none;
 }
 
 .op {
@@ -16,13 +17,13 @@
     .footer {
         background: #eaeaec;
         height: 45px;
-        z-index: 80;
+        z-index: 300000;
     }
     .op {
         img {
             height: 35px;
         }
         padding-left: 85%;
-        z-index: 90;
+        z-index: 3000;
     }
 }

@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './social.module.scss';
-import Footer from '../footer/footer.component';
 
 const Social = () => (
     <div className={styles.footer}>

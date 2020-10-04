@@ -3,8 +3,8 @@ import styles from './video-container.module.scss';
 
 const VideoContainer = (props) => {
     const { url, title, paragraph, videoWidth, invert } = props;
+    
     const container = invert ? `${styles.container} ${styles.invert}` : `${styles.container} ${styles.normal}`;
-    console.log(container, invert);
     
     return (
         <div className={container}>
