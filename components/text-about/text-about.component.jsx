@@ -9,7 +9,7 @@ const TextAbout = () => {
             <div className={style.text}>
                 <div className={style.textContent}>
                  <HeaderAbout/>
-                    <p>Looriosam maxime, perferendis commodi voluptatem accusamus quis autem id vitae? Minima consequatur saepe iure harum culpa quod perferendis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto sapiente maiores, atque, voluptate, eaque ut eos cumque nesciunt qui earum in velit omnis eveniet tempore. Nemo in error nostrum non. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro et officia consequuntur. Fuga, molestiae maiores iusto aliquam aperiam sit distinctio ullam veritatis porro at dolorum excepturi quod repellendus vel quisquam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, commodi possimus, doloremque libero blanditiis voluptatum excepturi perspiciat</p>
+                    <p>Nací en A Coruña en 1981, mis primeros contactos con el mundo de la interpretación tiene lugar en el colegio durante una obra musical para el carnaval del centro en el que cantaba disfrazado de gallo. Pero la decisión de dedicarme de lleno a la interpretación llega a la edad de 30 años cuando ví un anuncio en prensa sobre el casting para formar parte de la primera promoción de una nueva escuela de interpretación en la ciudad, era <b>“ahora o nunca”</b> y medecidí. Aparté mis estudios de Fisioterapia de la Universidad de A Coruña para dedicarme de lleno a la actuación en el 2012. Mi narración habia comenzado.</p>
                 </div>
             </div>
         </div>
