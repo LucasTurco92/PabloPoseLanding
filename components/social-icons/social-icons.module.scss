@@ -28,6 +28,11 @@
     line-height: 2em;
 }
 
+.linkedIn {
+    @extend .facebook;
+    width: 1.4em;
+}
+
 .instagram {
     display: inline-block;
     width: 1.4em;
