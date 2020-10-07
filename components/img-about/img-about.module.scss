@@ -3,6 +3,7 @@
         border-radius: 100%;
         display: flex;
         object-fit: cover;
+        box-shadow: 1px 1px 4px black;
     }
     
     @media (max-width: 720px) {
@@ -10,5 +11,6 @@
             height: 65%;
             margin: auto;
             display: block;
+            box-shadow: none;
         }
     }
