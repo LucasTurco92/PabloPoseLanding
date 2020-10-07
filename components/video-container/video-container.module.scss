@@ -55,12 +55,10 @@
         box-shadow: none;
         video {
             width: 100%;
-            border-top-left-radius: 16px;
-            border-top-right-radius: 16px;
             box-shadow: 0 5px 5px #272833;
-            border-bottom-left-radius: 0;
-            border-bottom-right-radius: 0;
             margin: 0;
+            border-radius: 0;
+            border: 5px solid black;
         }
     }
     .textMobile {
@@ -78,10 +76,5 @@
     .container {
         padding: 10px 15px 10px 15px;
         grid-template-columns: repeat(1, 1fr);
-    }
-    .borderContainer {
-        border: solid 3px #272833;
-        border-radius: 20px;
-        z-index: 199;
     }
 }
