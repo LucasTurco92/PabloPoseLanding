@@ -6,7 +6,7 @@ const ThirdSection = (props) => {
     return (
         <div className={style.thirdContainer}>
             <div className={style.third}>     
-            <span className={style.title}>Lorem</span> 
+            <span className={style.title}>Destacados</span> 
                 <dir className={style.videoSection}>
                 <VideoContainer url='/esperanza.mp4'  title='test' paragraph='Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis similique id error, soluta dolorem ad! Placeat totam magni officiis ducimus minus iste, eveniet, voluptatem tempore praesentium illum culpa corporis quam!'/>
                 <VideoContainer url='/caso.mp4'  title='test' paragraph='Lorem isum, dolor sit amet consectetur adipisicing elit. Perspiciatis similique id error, soluta dolorem ad! Placeat totam magni officiis ducimus minus iste, eveniet, voluptatem tempore praesentium illum culpa corporis quam!'/>
