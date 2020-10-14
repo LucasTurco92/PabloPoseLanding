@@ -1,4 +1,3 @@
-import { Component } from 'react'
 import Head from 'next/head';
 import Intro from '../components/intro/intro.component';
 import Social from '../components/social/social.component';
@@ -24,7 +23,7 @@ export default props => (
         </Section>
         <Section section="thirdSection">
             <ThirdSection />
-</Section>
+        </Section>
 
         <Social />
         <Footer/>

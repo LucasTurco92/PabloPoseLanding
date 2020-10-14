@@ -1,13 +1,14 @@
     .imgAbout {
         height: 200px;
         border-radius: 100%;
-        display: flex;
+        display: none;
         object-fit: cover;
         box-shadow: 1px 1px 4px black;
     }
     
     @media (max-width: 720px) {
         .imgAbout {
+            display: flex;
             height: 65%;
             margin: auto;
             display: block;

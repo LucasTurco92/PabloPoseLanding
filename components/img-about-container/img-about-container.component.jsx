@@ -6,6 +6,7 @@ const ImgAboutContainer = () =>
     (
         <div className={styles.imgAboutContainer} >
             <ImgAbout srcImg='/second/about.jpeg' altImg='about' />
+            <img className={styles.imgAbout2 } src='/second/about2.jpeg'  alt='pablo' />   
      
         </div>
     )

@@ -1,7 +1,7 @@
 import React from 'react';
 import IntroContent from '../intro-content/intro-content.component';
-import ArrowDown from '../arrow-down/arrow-down.component';
 import ImgContainer from '../img-container/img-container.component';
+import styles from './intro.module.scss';
 
 const Intro = () => (
     <div >
@@ -9,6 +9,7 @@ const Intro = () => (
             <IntroContent />
             <picture>
                 <ImgContainer srcImg='/intro/portada.jpeg' altImg='Pablo Pose' />
+                <div className={styles.imgIntro} />
             </picture>
         </div>
     </div>
