@@ -3,3 +3,11 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --white: #ffffff;
+    --lightGrey: #fafafa;
+    --dark: #272833;
+    --solidBlack: #000;
+    --chillRed: #bc4558;
+}

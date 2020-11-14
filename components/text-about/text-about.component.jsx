@@ -9,7 +9,7 @@ const TextAbout = () => {
             <div className={style.text}>
                 <div className={style.textContent}>
                  <HeaderAbout/>
-                    <p>Nací en A Coruña en 1981, donde mis primeros contactos con el mundo de la interpretación tienen lugar en el colegio, cantaba disfrazado de gallo durante una obra musical para el carnaval del centro. Pero la decisión de dedicarme de lleno a la interpretación llega a la edad de 30 años cuando ví un anuncio en prensa sobre el casting para formar parte de la primera promoción de una nueva escuela de interpretación en la ciudad, era <b>“ahora o nunca”</b> y medecidí. Aparté mis estudios de Fisioterapia de la Universidad de A Coruña para dedicarme de lleno a la actuación en el 2012. Mi narración habia comenzado.</p>
+                    <p>Nace en A Coruña en 1981, sus primeros contactos con el mundo de la interpretación tienen lugar en su colegio durante una obra musical para el carnaval del centro en el que cantaba disfrazado de gallo. Pero la decisión de dedicarse de lleno a la interpretación llega a la edad de 30 años cuando ve un anuncio en prensa sobre el casting para formar parte de la primera promoción de una nueva escuela de interpretación en su ciudad, era “ahora o nunca” y decide apartar sus estudios de Fisioterapia en la Universidad de A Coruña para dedicarse de lleno a la actuación es ahí en el 2012 donde empieza todo.</p>
                 </div>
             </div>
         </div>
