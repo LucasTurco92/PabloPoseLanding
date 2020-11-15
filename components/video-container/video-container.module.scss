@@ -1,80 +1,76 @@
 .videoContainer {
-    margin-bottom: 50px;
-    background: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 1px 1px 4px;
-    border-radius: 20px;
-    grid-column: 1;
+    margin: 0;
+    width: 100%;
+    box-shadow: none;
     video {
-        width: 95%;
-        border-radius: 20px;
-        margin: 2% 0 2% 0;
+        width: 100%;
+        box-shadow: 0 5px 5px #272833;
+        margin: 0;
+        border-radius: 0;
     }
-}
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-}
-
-.normal {
-    direction: unset;
-}
-
-.invert {
-    direction: rtl;
 }
 
 .textMobile {
-    display: none;
-    grid-column: 2;
-    color: #eaeaec;
-    width: 70%;
-    height: 50%;
-    padding: 5px;
-    margin: auto;
+    display: block;
+    color: var(--lightGrey);
     h1 {
         text-align: center;
     }
+    text-align: left;
+    line-height: 1.5em;
 }
 
 .text {
-    @extend .textMobile;
-    grid-column: 2;
-    display: block;
-    margin: 0 0 auto;
+    display: none;
 }
 
-@media (max-width: 720px) {
+.container {
+    padding: 10px 15px 10px 15px;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 720px) {
     .videoContainer {
-        margin: 0;
-        width: 100%;
-        box-shadow: none;
+        margin-bottom: 50px;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 1px 1px 4px;
+        border-radius: 20px;
+        grid-column: 1;
         video {
-            width: 100%;
-            box-shadow: 0 5px 5px #272833;
-            margin: 0;
-            border-radius: 0;
+            width: 95%;
+            border-radius: 20px;
+            margin: 2% 0 2% 0;
         }
     }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+    .normal {
+        direction: unset;
+    }
+    .invert {
+        direction: rtl;
+    }
     .textMobile {
-        display: block;
-        color: #272833;
-        width: 85%;
+        display: none;
+        grid-column: 2;
+        color: #eaeaec;
+        width: 70%;
+        height: 50%;
+        padding: 5px;
+        margin: auto;
         h1 {
             text-align: center;
         }
-        text-align: left;
-        line-height: 1.5em;
     }
     .text {
-        display: none;
-    }
-    .container {
-        padding: 10px 15px 10px 15px;
-        grid-template-columns: repeat(1, 1fr);
+        grid-column: 2;
+        display: block;
+        margin: 0 0 auto;
     }
 }
