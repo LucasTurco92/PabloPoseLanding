@@ -1,26 +1,19 @@
 .separator {
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -100;
-    background-size: cover;
-    background-attachment: fixed, fixed;
-    background-position: top;
-    background-repeat: no-repeat;
     height: 100vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: top;
 }
 
 @media (min-width: 720px) {
     .separator {
-        height: 30vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-attachment: fixed, fixed;
+        background-position: top;
+        background-repeat: no-repeat;
+        height: 100vh;
+        height: 35vh;
         filter: blur(5px);
-    }
-}
-
-@media (min-width: 1000px) {
-    .separator {
-        background-position: 50% 30%;
     }
 }

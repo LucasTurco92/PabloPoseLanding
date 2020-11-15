@@ -1,5 +1,9 @@
 .separator {
-    background: url(/intro/portada.jpeg) center center no-repeat;
+    background-image: url("/intro/portada.jpeg");
+}
+
+.container {
+    margin-bottom: 35vh;
 }
 
 .image {
