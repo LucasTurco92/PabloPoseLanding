@@ -9,7 +9,10 @@ import ThirdSection from "../components/third-section/third-section";
 
 export default () => (
   <div>
-      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poiret+One&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poiret+One&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
       rel="stylesheet"
@@ -43,7 +46,6 @@ export default () => (
     <Intro />
 
     <SecondSection />
-    <Intro />
 
     <ThirdSection />
 

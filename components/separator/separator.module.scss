@@ -1,0 +1,14 @@
+.imgIntro {
+    background-size: cover;
+    background-attachment: fixed, fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+@media (min-width: 720px) {
+    .imgIntro {
+        height: 30vh;
+        filter: blur(5px);
+    }
+}

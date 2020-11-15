@@ -1,8 +1,10 @@
 import React from "react";
+import Separator from "../separator/separator.component";
 import Styles from "./second-section.module.scss";
 
 const SecondSection = () => {
   return (
+    <div>
     <div className={Styles.secondContainer}>
       <div className={Styles.second}>
         <img
@@ -48,6 +50,8 @@ const SecondSection = () => {
         </div>
       </div>
     </div>
+      <Separator style={Styles.separator}/>
+</div>
   );
 };
 
