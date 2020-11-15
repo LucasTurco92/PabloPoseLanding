@@ -4,6 +4,9 @@
     background-position: top;
     background-repeat: no-repeat;
     height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 @media (min-width: 720px) {
