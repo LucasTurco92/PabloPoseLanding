@@ -1,6 +1,6 @@
 .separator {
     background-image: url("/second/separator.jpeg");
-    height: 30vh;
+    height: 40vh;
     filter: blur(5px);
 }
 
@@ -117,7 +117,6 @@
         background: var(--grey);
         height: 100%;
         width: 100%;
-        max-width: 1920px;
         display: flex;
     }
     .imgAbout2 {

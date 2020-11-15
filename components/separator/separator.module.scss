@@ -1,4 +1,4 @@
-.imgIntro {
+.separator {
     background-size: cover;
     background-attachment: fixed, fixed;
     background-position: top;
@@ -7,8 +7,14 @@
 }
 
 @media (min-width: 720px) {
-    .imgIntro {
+    .separator {
         height: 30vh;
         filter: blur(5px);
+    }
+}
+
+@media (min-width: 1000px) {
+    .separator {
+        background-position: 50% 30%;
     }
 }
