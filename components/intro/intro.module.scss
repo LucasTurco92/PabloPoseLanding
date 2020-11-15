@@ -2,19 +2,63 @@
     background-image: url("/intro/portada.jpeg");
     background-size: cover;
     background-attachment: fixed, fixed;
-    background-position: top left, bottom center;
+    background-position: top;
     background-repeat: no-repeat;
     height: 100vh;
+}
+
+.image {
+    display: none;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    left: 0;
+    object-fit: cover;
+    height: 100vh;
+}
+
+.image2 {
+    @extend .image;
+}
+
+@media (min-width: 720px) {
+    .image {
+        display: flex;
+        bottom: 0;
+        width: 100%;
+        z-index: 1;
+        left: 0;
+        object-fit: cover;
+    }
+    .imgIntro {
+        height: 40vh;
+        filter: blur(7px);
+    }
+}
+
+@media (min-width: 1000px) {
+    .image {
+        object-position: 50% 50%;
+    }
+    .image2 {
+        background-position: 50% 20%;
+    }
+}
+
+@media (min-width: 1800px) {
+    .image {
+        object-position: 50% 50%;
+    }
+    .image2 {
+        background-position: 50% 20%;
+    }
 }
 
 @media (min-width: 1000px) {
     .imgIntro {
         background-position: 50% 20%;
     }
-}
-
-@media (max-width: 720px) {
-    .imgIntro {
-        display: none;
+    .image2 {
+        background-position: 50% 20%;
     }
 }
