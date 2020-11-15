@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lobster', cursive;
 }
 
 :root {
@@ -10,4 +11,6 @@ body {
     --dark: #272833;
     --solidBlack: #000;
     --chillRed: #bc4558;
+    --darkGrey: #6c6d71;
+    --grey: #b2bac9;
 }

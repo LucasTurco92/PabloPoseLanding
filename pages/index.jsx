@@ -10,6 +10,10 @@ import ThirdSection from '../components/third-section/third-section';
 
 export default props => (
     <div >
+           <link
+          href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+          rel="stylesheet"
+        />
         <TitleIcon />
         <Head>
             <title>Pablo Pose</title>
