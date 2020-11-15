@@ -3,7 +3,7 @@
 }
 
 .container {
-    margin-bottom: 35vh;
+    margin: 100vh;
 }
 
 .image {
@@ -17,6 +17,9 @@
 }
 
 @media (min-width: 720px) {
+    .container {
+        margin: 0;
+    }
     .image {
         display: flex;
         bottom: 0;

@@ -5,7 +5,7 @@ import Styles from './intro.module.scss';
 
 const Intro = () => (
     <div >
-        <div >
+        <div className={Styles.container}>
             <IntroContent />
                 <img className={Styles.image} src='/intro/portada2.jpeg' alt='Pablo Pose' />
                 <Separator style={Styles.separator}/>
