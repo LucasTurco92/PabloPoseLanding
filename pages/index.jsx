@@ -5,6 +5,7 @@ import Footer from "../components/footer/footer.component";
 import SecondSection from "../components/second-section/second-section.component";
 import Navbar from "../components/navbar/navbar.component";
 import ThirdSection from "../components/third-section/third-section";
+import PositionWrapper from "../components/position-wrapper/position-wrapper.component";
 
 export default () => (
   <div>
@@ -43,11 +44,12 @@ export default () => (
       <title>Pablo Pose</title>
     </Head>
     <Navbar />
-
-    <Intro />
-
+    <PositionWrapper>
+      <Intro />
+    </PositionWrapper>
+    <PositionWrapper>
     <SecondSection />
-
+    </PositionWrapper>
     <ThirdSection />
 
     <Social />
