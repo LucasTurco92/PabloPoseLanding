@@ -10,6 +10,7 @@ body {
     --white: #ffffff;
     --lightGrey: #eaeaec;
     --dark: #272833;
+    --darkClear: rgba(39, 40, 51, .7);
     --solidBlack: #000;
     --chillRed: #bc4558;
     --darkGrey: #6c6d71;

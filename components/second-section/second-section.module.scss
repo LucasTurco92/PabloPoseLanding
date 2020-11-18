@@ -1,7 +1,7 @@
 .secondContainer {
     height: 115vh;
     overflow: hidden;
-    background: var(--dark);
+    background: var(--darkClear);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,7 +94,7 @@
     height: 200px;
     border-radius: 25%;
     margin: 0 25% 0 25%;
-    outline: 1px solid var(--lightGrey);
+    border: 1px solid var(--white);
 }
 
 @media (min-width: 720px) {
@@ -125,7 +125,6 @@
     }
     .textAboutcontainer {
         min-width: 300px;
-        margin: none;
         border: none;
         color: var(--dark);
         background: rgba(234, 234, 236, 1);
