@@ -20,13 +20,11 @@ const AutoScrollAnimation = (props) => {
         prevPos.y < currPos.y && isActionZone
           ? window.scrollTo({
               top: height + scrollPlusTo,
-              left: 0,
-              behavior: "smooth",
+              left: 0
             })
           : "";
         prevPos.y > currPos.y && isActionZone
           ? ref.current.scrollIntoView({
-              behavior: "smooth",
               block: "start",
               top: "start",
             })

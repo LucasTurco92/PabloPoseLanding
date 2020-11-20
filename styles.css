@@ -3,6 +3,9 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lobster', cursive;
+}
+
+html {
     scroll-behavior: smooth;
 }
 
