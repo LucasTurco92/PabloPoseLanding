@@ -14,15 +14,14 @@
 
 @media (min-width: 720px) {
     .third {
-        background: var(--lightGrey);
+        background: var(--darkClear);
         display: block;
         align-items: center;
         margin: auto;
     }
     .thirdContainer {
         justify-content: center;
-        background: var(--lightGrey);
-        padding-top: 40px;
+        background: var(--darkClear);
     }
     .videoSection {
         margin: auto;

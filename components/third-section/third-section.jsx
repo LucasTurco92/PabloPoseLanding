@@ -1,22 +1,17 @@
-import React from 'react';
-import style from './third-section.module.scss';
-import VideoContainer from '../video-container/video-container.component';
+import React from "react";
+import Styles from "./third-section.module.scss";
+import Carrousel from "../carrousel/carrousel.component";
 
 const ThirdSection = () => {
-
-    const videos = [  <VideoContainer url='/esperanza.mp4'  title='Esperanza' />,
-    <VideoContainer url='/caso.mp4'  title='O caso Diana Quer'/>,
-    <VideoContainer url='/secuencia.mp4' title='479' />];
-    
-    return (
-        <div className={style.thirdContainer}>
-            <div className={style.third}>     
-                <dir className={style.videoSection}>
-              
-                </dir>
-            </div>
-        </div>
-    )
-}
+  return (
+    <div className={Styles.thirdContainer}>
+      <div className={Styles.third}>
+        <dir className={Styles.videoSection}>
+          <Carrousel />
+        </dir>
+      </div>
+    </div>
+  );
+};
 
 export default ThirdSection;

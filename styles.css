@@ -18,4 +18,5 @@ html {
     --chillRed: #bc4558;
     --darkGrey: #6c6d71;
     --grey: #b2bac9;
+    --lightGreyClear: rgba(234, 234, 236, .7);
 }

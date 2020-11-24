@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 720px) {
+    .container {
+        flex-wrap: nowrap;
+    }
+}
