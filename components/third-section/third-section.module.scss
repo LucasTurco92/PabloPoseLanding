@@ -3,10 +3,7 @@
 }
 
 .videoSection {
-    max-width: 100%;
-}
-
-.videoSection {
+    width: 100%;
     margin: auto;
     padding: inherit;
 }
@@ -18,7 +15,6 @@
 @media (min-width: 720px) {
     .third {
         background: var(--lightGrey);
-        max-width: 1920px;
         display: block;
         align-items: center;
         margin: auto;
@@ -30,5 +26,6 @@
     }
     .videoSection {
         margin: auto;
+        flex-wrap: wrap-reverse;
     }
 }

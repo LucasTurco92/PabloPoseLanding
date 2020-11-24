@@ -47,7 +47,7 @@ export default () => (
     <AutoScrollAnimation actionPlusTop={200} scrollPlusTo={0} >
       <Intro />
     </AutoScrollAnimation>
-    <AutoScrollAnimation actionPlusTop={200} scrollPlusTo={1000} >
+    <AutoScrollAnimation actionPlusTop={200} scrollPlusTo={1400} >
     <SecondSection />
     </AutoScrollAnimation>
 

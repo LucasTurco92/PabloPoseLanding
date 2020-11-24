@@ -1,10 +1,9 @@
 .videoContainer {
     margin: 0;
-    width: 100%;
+    max-width: 500px;
     box-shadow: none;
     video {
         width: 100%;
-        box-shadow: 0 5px 5px #272833;
         margin: 0;
         border-radius: 0;
     }
@@ -16,7 +15,7 @@
     h1 {
         text-align: center;
     }
-    text-align: left;
+    text-align: center;
     line-height: 1.5em;
 }
 
@@ -26,29 +25,21 @@
 
 .container {
     padding: 10px 15px 10px 15px;
-    grid-template-columns: repeat(1, 1fr);
 }
 
 @media (min-width: 720px) {
     .videoContainer {
-        margin-bottom: 50px;
         background: transparent;
-        display: flex;
         align-items: center;
         justify-content: center;
-        box-shadow: 1px 1px 4px;
         border-radius: 20px;
-        grid-column: 1;
         video {
-            width: 95%;
             border-radius: 20px;
             margin: 2% 0 2% 0;
         }
     }
     .container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
+        padding: 20px;
     }
     .normal {
         direction: unset;
@@ -58,8 +49,7 @@
     }
     .textMobile {
         display: none;
-        grid-column: 2;
-        color: #eaeaec;
+        color: var(--dark);
         width: 70%;
         height: 50%;
         padding: 5px;
@@ -69,7 +59,6 @@
         }
     }
     .text {
-        grid-column: 2;
         display: block;
         margin: 0 0 auto;
     }
