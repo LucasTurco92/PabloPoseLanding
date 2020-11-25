@@ -1,5 +1,6 @@
 .third {
     background: var(--darkClear);
+    padding-bottom: 20px;
 }
 
 .videoSection {
@@ -14,6 +15,7 @@
 
 @media (min-width: 720px) {
     .third {
+        padding-bottom: 50px;
         background: var(--darkClear);
         display: block;
         align-items: center;

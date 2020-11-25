@@ -12,14 +12,7 @@ const Carrousel = () => {
     <div className={Styles.container}>
       {videos.map((video) => (
         <div className={Styles.carrouselItem} key={video.key}>{video}</div>
-      ))}
-      <div>
-        {videos.forEach((video) => (
-         <a href={video.key}/>
-      ))}
-
-      </div>
-      
+      ))}      
     </div>
   );
 };
