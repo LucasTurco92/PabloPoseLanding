@@ -4,15 +4,22 @@ import Styles from "./carrousel.module.scss";
 
 const Carrousel = () => {
   const videos = [
-    <VideoContainer url="/esperanza.mp4" title="Esperanza" />,
-    <VideoContainer url="/caso.mp4" title="O caso Diana Quer" />,
-    <VideoContainer url="/secuencia.mp4" title="479" />,
+    <VideoContainer url="/esperanza.mp4" title="Esperanza" key={1}/>,
+    <VideoContainer url="/caso.mp4" title="O caso Diana Quer" key={2}/>,
+    <VideoContainer url="/secuencia.mp4" title="479" key={3}/>,
   ];
   return (
     <div className={Styles.container}>
       {videos.map((video) => (
-        <div key={video.title}>{video}</div>
+        <div className={Styles.carrouselItem} key={video.key}>{video}</div>
       ))}
+      <div>
+        {videos.forEach((video) => (
+         <a href={video.key}/>
+      ))}
+
+      </div>
+      
     </div>
   );
 };

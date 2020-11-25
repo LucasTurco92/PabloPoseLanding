@@ -25,6 +25,7 @@
     }
     .videoSection {
         margin: auto;
-        flex-wrap: wrap-reverse;
+        display: flex;
+        justify-content: center;
     }
 }
