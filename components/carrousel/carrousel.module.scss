@@ -10,10 +10,10 @@
                         height: 10px;
                     }
                     &::-webkit-scrollbar-track {
-                        background: var(--darkClear);
+                        background: transparent
                     }
                     &::-webkit-scrollbar-thumb {
-                        background: var(--lightGreyClear);
+                        background: var(--darkClear);
                         border-radius: 10px;
                     }
                 }

@@ -7,12 +7,12 @@ const Intro = () => {
   return (
     <div className={Styles.container}>
       <IntroContent />
-      <img
-        className={Styles.image}
-        src="/intro/portada2.jpeg"
-        alt="Pablo Pose"
-      />
-      <Separator style={Styles.separator} />
+        <img
+          className={Styles.image}
+          src="/intro/portada2.jpeg"
+          alt="Pablo Pose"
+        />
+        <Separator style={Styles.separator} />
     </div>
   );
 };

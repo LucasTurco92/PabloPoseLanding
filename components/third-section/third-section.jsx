@@ -8,8 +8,10 @@ const ThirdSection = () => {
       <div className={Styles.third}>
         <dir className={Styles.videoSection}>
           <Carrousel />
+         
         </dir>
       </div>
+     
     </div>
   );
 };

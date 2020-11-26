@@ -6,6 +6,7 @@ import SecondSection from "../components/second-section/second-section.component
 import Navbar from "../components/navbar/navbar.component";
 import ThirdSection from "../components/third-section/third-section";
 import AutoScrollAnimation from "../components/auto-scroll-animation/auto-scroll-animation.component";
+import Loader from "../components/loader/loader.component";
 
 export default () => (
   <div>
@@ -44,16 +45,19 @@ export default () => (
       <title>Pablo Pose</title>
     </Head>
     <Navbar />
-    <AutoScrollAnimation actionPlusTop={200} scrollPlusTo={0} >
-      <Intro />
-    </AutoScrollAnimation>
-    <AutoScrollAnimation actionPlusTop={200} scrollPlusTo={1400} >
-    <SecondSection />
-    </AutoScrollAnimation>
+
+    <Loader>
+      <AutoScrollAnimation actionPlusTop={200} scrollPlusTo={0}>
+        <Intro />
+      </AutoScrollAnimation>
+      <AutoScrollAnimation actionPlusTop={200} scrollPlusTo={1400}>
+        <SecondSection />
+      </AutoScrollAnimation>
+
 
     <ThirdSection />
-
     <Social />
     <Footer />
+    </Loader>
   </div>
 );
